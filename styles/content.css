@@ -1,0 +1,43 @@
+.content {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 56px 8px 0;
+}
+
+.content__logo {
+  height: 120px;
+}
+
+.content__search {
+  width: 100%;
+  max-width: 636px;
+
+  margin-top: 18px;
+  padding: 7px 10px 6px 20px;
+
+  font-size: 18px;
+
+  color: rgba(0, 0, 0, 0.87);
+  background: transparent;
+
+  outline: 0;
+
+  border-radius: 125px;
+  border: 1px solid #dadce0;
+}
+
+.content__offer {
+  margin-top: 24px;
+  padding: 6px 12px;
+
+  font-size: 13px;
+}
+
+.content__offer a {
+  color: #1967d2;
+  text-decoration: none;
+}
